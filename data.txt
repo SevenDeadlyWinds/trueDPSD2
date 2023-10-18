@@ -1,0 +1,10 @@
+# Please insert your data here.
+#
+# Total damage is the amount of damage done after you mag dump, and can be calculated with single shot damage multiplied by reserves
+#
+# Reload speed is how fast your gun reloads. You can get this by clipping a reload, then using the time stamps to figure out when your reload starts and ends
+#
+# Time to fire is how fast your gun can fire before either firing again, or reloading. Again, clipping and timestamps.
+totalDamage=957000  
+reloadSpeed=3.2  
+ttf=0.6  

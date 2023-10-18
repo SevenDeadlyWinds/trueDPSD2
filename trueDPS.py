@@ -12,7 +12,7 @@ myList = readMeFile.readlines()
 
 # Get the values as strings from the list
 # tD = totalDamage
-# rS1 = reloadSpeed
+# rS = reloadSpeed
 # ttf = time to fire
 
 tD1 = myList[7]

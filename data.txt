@@ -5,7 +5,7 @@
 # Reload speed is how fast your gun reloads. You can get this by clipping a reload, then using the time stamps to figure out when your reload starts and ends. Reload count is how many times you reload during a mag dump
 #
 # Time to fire is how fast your gun can fire before either firing again, or reloading. Again, clipping and timestamps.
-totalDamage=957000
+totalDamage=
 reloadCount=
-reloadSpeed=3.2  
-ttf=0.6
+reloadSpeed=3
+ttf=0

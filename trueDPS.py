@@ -12,25 +12,18 @@ myList = readMeFile.readlines()
 
 # Get the values as strings from the list
 # tD = totalDamage
-# rS = reloadSpeed
+# rS1 = reloadSpeed
 # ttf = time to fire
 
-tD1 = myList[7]
-rS1 = myList[8]
-rC1 = myList[9]
-ttf1 = myList[10]
-
-# Get the values by themselves
-
-tD2 = tD1[12:]
-rS2 = rS1[12:]
-rC2 = rC1[12:]
-ttf2 = ttf1[4:]
+tD = myList[7][12:]
+rS = myList[8][12:]
+rC = myList[9][12:]
+ttf = myList[10][4:]
 
 # To calulate true DPS, we just take tD2 (totalDamage2) and factor in the reload speed + time to spire
 
-calculation = (float(ttf2) + (float(rS2) * int(rC2)))
-calculation2 = (int(tD2) / calculation)
+calculation = (float(ttf) + (float(rS) * int(rC)))
+calculation2 = (int(tD) / calculation)
 
 print(tD2, rS2, rC2, ttf2)
 print(calculation2)
